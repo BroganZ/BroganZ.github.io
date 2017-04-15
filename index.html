@@ -158,6 +158,130 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-Python基础教程—学习笔记" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/04/15/Python基础教程—学习笔记/">Python基础教程—学习笔记</a>
+    </h1>
+  
+
+        
+        <a href="/2017/04/15/Python基础教程—学习笔记/" class="archive-article-date">
+  	<time datetime="2017-04-15T06:54:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-15</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="书后十个项目内容汇总"><a href="#书后十个项目内容汇总" class="headerlink" title="书后十个项目内容汇总"></a>书后十个项目内容汇总</h1><h2 id="项目1：即时标记"><a href="#项目1：即时标记" class="headerlink" title="项目1：即时标记"></a>项目1：即时标记</h2><p>展现文本处理能力，使用正则表达式将纯文本文件写成标记语言格式的文本。（HTML/XML等）<br>难点是正则表达式（’re’）的使用，以及类，模块，生成器的使用。</p>
+<h2 id="项目2：画幅好画"><a href="#项目2：画幅好画" class="headerlink" title="项目2：画幅好画"></a>项目2：画幅好画</h2><p>通过在线数据，创建图形，保存为PDF文件。<br>使用了‘reportlab’，‘urllib’模块。</p>
+<h2 id="项目3：万能的XML"><a href="#项目3：万能的XML" class="headerlink" title="项目3：万能的XML"></a>项目3：万能的XML</h2><p>将包含网站信息的XML文件转换为目录及网页。<br>使用了’xml.sax’解析器中的‘ContentHandler’和‘parse’模块，需要些许了解HTML内容。</p>
+<h2 id="项目4：新闻聚合"><a href="#项目4：新闻聚合" class="headerlink" title="项目4：新闻聚合"></a>项目4：新闻聚合</h2><p>网络信息收集代理程序，并编译为报告。<br>通过NNTP新闻组服务器和网页HTML抓取新闻内容，发布到文本和html中。<br>感觉类似于爬虫，可以多试一下。</p>
+<h2 id="项目5：虚拟茶话会"><a href="#项目5：虚拟茶话会" class="headerlink" title="项目5：虚拟茶话会"></a>项目5：虚拟茶话会</h2><p>实现多人网络实时交互聊天功能。<br>以标准库中asyncore和asynchat模块为基础建立服务器，需要理解socket套接字含义，客户端使用telnet。</p>
+<h2 id="项目6：使用CGI进行远程编辑"><a href="#项目6：使用CGI进行远程编辑" class="headerlink" title="项目6：使用CGI进行远程编辑"></a>项目6：使用CGI进行远程编辑</h2><p>实现网络远程文档编辑功能，基于CGI方式。<br>建立网站的基本内容，使用cgi模块，并且运用python库内的CGIHTTPServer模块生成服务器。<br>例如：在目录文件中运行cmd，“python -m CGIHTTPServer 端口号”，链接为“localhost: 端口号/文件名”，注意.cgi(windows中可以使用.py)文件必须放在“cgi-bin”文件夹下。</p>
+<h2 id="项目7：自定义电子公告板"><a href="#项目7：自定义电子公告板" class="headerlink" title="项目7：自定义电子公告板"></a>项目7：自定义电子公告板</h2><p>实现通过Web发布和回复信息的系统，即网络论坛。<br>使用MySQL，搭配MySQLdb模块（mysql-python），需要掌握如何安装和操作。<br>运行“mysql -u root -p”，可以进入MySql里查看，CGI方法与项目6相同。</p>
+<h2 id="项目8：使用XML-RPC进行文件共享"><a href="#项目8：使用XML-RPC进行文件共享" class="headerlink" title="项目8：使用XML-RPC进行文件共享"></a>项目8：使用XML-RPC进行文件共享</h2><p>实现P2P的文件共享程序，节点之间的文件传输。<br>使用自带‘xmlrpclib’和‘SimpleXMLRPCServer’模块。</p>
+<h2 id="项目9：文件共享2-GUI版本"><a href="#项目9：文件共享2-GUI版本" class="headerlink" title="项目9：文件共享2 - GUI版本"></a>项目9：文件共享2 - GUI版本</h2><p>为项目8实现为GUI的可视化版本。<br>使用wxPython工具包，基本是一些窗口化的设置。</p>
+<h2 id="项目10：DIY街机游戏"><a href="#项目10：DIY街机游戏" class="headerlink" title="项目10：DIY街机游戏"></a>项目10：DIY街机游戏</h2><p>主要的游戏内容就是，游戏开始会从屏幕上方不断随便的掉一些铁块，在屏幕下方有一个小香蕉是受你控制的，你需要不断的左右移动来躲避铁块。在你躲避完一定数量的铁块之后，就会进入下一关。下一关依然是让你躲铁块，不过铁块下降的速度就快了很多。在游戏中你可以按下任意键暂停，再次按则继续，按下ESC键退出。<br>使用pygame模块来完成，‘pip install pygame’。</p>
+<hr>
+<p>网上例子，可供参考：<br><a href="https://www.the5fire.com/beginning-python-10-projects.html" target="_blank" rel="external">https://www.the5fire.com/beginning-python-10-projects.html</a></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/04/15/Python基础教程—学习笔记/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
+    <article id="post-发布文章的步骤" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/04/15/发布文章的步骤/">发布文章的步骤</a>
+    </h1>
+  
+
+        
+        <a href="/2017/04/15/发布文章的步骤/" class="archive-article-date">
+  	<time datetime="2017-04-15T06:40:37.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-15</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>发布文章的步骤：</p>
+<blockquote>
+<ol>
+<li>hexo new 创建文章</li>
+<li>Markdown语法编辑文章</li>
+<li>部署（所有打开CMD都是在blog目录下）</li>
+</ol>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">hexo clean #清除缓存 网页正常情况下可以忽略此条命令</div><div class="line">hexo generate #生成</div><div class="line">hexo server #启动服务预览，非必要，可本地浏览网页</div><div class="line">hexo deploy #部署发布</div></pre></td></tr></table></figure>
+<p>简写Tips：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">hexo n &quot;我的博客&quot; == hexo new &quot;我的博客&quot; #新建文章</div><div class="line">hexo p == hexo publish</div><div class="line">hexo g == hexo generate#生成</div><div class="line">hexo s == hexo server #启动服务预览</div><div class="line">hexo d == hexo deploy#部署</div></pre></td></tr></table></figure>
+<p>如果在执行 hexo deploy 后,出现 error deployer not found:github 的错误，执行：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-deployer-git --save</div></pre></td></tr></table></figure>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/04/15/发布文章的步骤/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
     <article id="post-测试用文章" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
